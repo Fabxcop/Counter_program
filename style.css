@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+}
+
+
+#myh1 {
+  display: block;
+  text-align: center;
+  color: dimgrey;
+}
+
+#counter {
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  color: white;
+  font-family: helvetica;
+}
+
+#btns {
+  text-align: center  ;
+}
+
+.allbtns {
+  padding: 20px 50px;
+  margin-left: 30px;
+  color: white;
+  background-color: rgb(78, 129, 238)  ;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+.allbtns:hover {
+  background-color:rgb(0, 4, 253) ;
+}
